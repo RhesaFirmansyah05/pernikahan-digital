@@ -4,90 +4,95 @@
  */
 
 const DEFAULT_CONFIG = {
-  coverTitle: 'Rhesa & Alya',
-  coverDateText: 'SABTU, 24 OKTOBER 2026',
-  coverBgUrl: 'assets/images/cover.jpg',
-  
-  groomName: 'Rhesa Firmansyah, S.T.',
-  groomParents: 'Putra Pertama dari Bapak Herman & Ibu Ratna',
-  groomImgUrl: 'assets/images/groom.jpg',
-  
-  brideName: 'Alya Anindita, S.Ked.',
-  brideParents: 'Putri Kedua dari Bapak Bambang & Ibu Sri',
-  brideImgUrl: 'assets/images/bride.jpg',
-  
-  coupleImgUrl: 'assets/images/couple.jpg',
-  quoteText: '"Dan di antara tanda-tanda (kebesaran-Nya) ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang."',
-  quoteSource: '(Q.S. Ar-Rum: 21)',
-
-  // Countdown & Event
-  targetCountdownDate: '2026-10-24T08:00',
-  
-  events: [
+  "coverTitle": "Rhesa & Sela",
+  "coverDateText": "Kamis, 27 Agustus 2026",
+  "coverBgUrl": "assets/images/cover.jpg",
+  "groomName": "Muhammad Rhesa Firmansyah",
+  "groomParents": "Putra Pertama dari Bapak Ishak Wibawa & Ibu Suryantini",
+  "groomImgUrl": "assets/images/groom.jpg",
+  "brideName": "Sela Maisyarah Aditias Hidayat",
+  "brideParents": "Putri Kedua dari Bapak Bambang & Ibu Sri",
+  "brideImgUrl": "assets/images/bride.jpg",
+  "coupleImgUrl": "assets/images/couple.jpg",
+  "quoteText": "\"Dan di antara tanda-tanda (kebesaran-Nya) ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.\"",
+  "quoteSource": "(Q.S. Ar-Rum: 21)",
+  "targetCountdownDate": "2026-08-27T08:00",
+  "events": [
     {
-      id: 'event-akad',
-      name: 'Akad Nikah',
-      badge: 'Utama',
-      dateText: 'Sabtu, 24 Oktober 2026',
-      timeText: '08.00 WIB - Selesai',
-      locationName: 'Masjid Agung Trans Studio',
-      address: 'Jl. Gatot Subroto No.289, Cibangkong, Batununggal, Kota Bandung, Jawa Barat',
-      mapsUrl: 'https://maps.google.com/?q=Masjid+Agung+Trans+Studio+Bandung'
+      "id": "event-akad",
+      "name": "Akad Nikah",
+      "badge": "Utama",
+      "dateText": "Kamis, 27 Agustus 2026",
+      "timeText": "08.00 WIB - Selesai",
+      "locationName": "Gratika Office",
+      "address": "Jl. Palmerah Barat No.48, RT.3/RW.7, Palmerah, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480",
+      "mapsUrl": "https://maps.app.goo.gl/RZ1L9RK3m8ebMB9p7"
     },
     {
-      id: 'event-resepsi',
-      name: 'Resepsi Pernikahan',
-      badge: 'Utama',
-      dateText: 'Sabtu, 24 Oktober 2026',
-      timeText: '11.00 - 14.00 WIB',
-      locationName: 'Grand Ballroom InterContinental Hotel',
-      address: 'Resor Dago Pakar, Jl. Resor Dago Pakar Raya 2B, Mekarsaluyu, Cimenyan, Bandung',
-      mapsUrl: 'https://maps.google.com/?q=InterContinental+Bandung+Dago+Pakar'
+      "id": "event-resepsi",
+      "name": "Resepsi Pernikahan",
+      "badge": "Utama",
+      "dateText": "Sabtu, 24 Oktober 2026",
+      "timeText": "11.00 - 14.00 WIB",
+      "locationName": "Grand Ballroom InterContinental Hotel",
+      "address": "Resor Dago Pakar, Jl. Resor Dago Pakar Raya 2B, Mekarsaluyu, Cimenyan, Bandung",
+      "mapsUrl": "https://maps.google.com/?q=InterContinental+Bandung+Dago+Pakar"
     }
   ],
-
-  // Music
-  musicUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-acoustic-guitar-113264.mp3',
-
-  // Digital Envelope Bank
-  bankAccounts: [
+  "musicUrl": "https://youtu.be/atGEIFsuLpA?si=cNDxnQIekOhJ13Wa",
+  "bankAccounts": [
     {
-      id: 'bank-1',
-      name: 'Bank BCA',
-      number: '1234567890',
-      holder: 'a.n. Rhesa Firmansyah'
+      "id": "bank-1",
+      "name": "Bank BCA",
+      "number": "1234567890",
+      "holder": "a.n. Rhesa Firmansyah"
     },
     {
-      id: 'bank-2',
-      name: 'Bank Mandiri',
-      number: '0987654321',
-      holder: 'a.n. Alya Anindita'
+      "id": "bank-2",
+      "name": "Bank Mandiri",
+      "number": "0987654321",
+      "holder": "a.n. Alya Anindita"
     }
   ],
-
-  // Gallery Photos
-  galleryPhotos: [
-    'assets/images/couple.jpg',
-    'assets/images/groom.jpg',
-    'assets/images/bride.jpg',
-    'assets/images/cover.jpg',
-    'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80'
+  "galleryPhotos": [
+    "assets/images/couple.jpg",
+    "assets/images/groom.jpg",
+    "assets/images/bride.jpg",
+    "assets/images/cover.jpg",
+    "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80"
   ],
-
-  // Love Story Timeline
-  timelineItems: [
-    { id: 'story-1', date: 'Tahun 2022', title: 'Pertama Bertemu', desc: 'Tak sengaja dipertemukan dalam sebuah proyek organisasi kampus. Berawal dari diskusi singkat, tumbuh rasa saling menghargai dan kenyamanan satu sama lain.' },
-    { id: 'story-2', date: 'Tahun 2023', title: 'Mulai Berpacaran', desc: 'Setahun saling mengenal, kami memutuskan untuk mengikat komitmen bersama, saling mendukung impian masing-masing, dan belajar arti kesabaran serta ketulusan.' },
-    { id: 'story-3', date: 'Tahun 2025', title: 'Momen Lamaran', desc: 'Momen membahagiakan di mana dua keluarga besar bersilaturahmi dan merestui niat suci kami untuk melangkah menuju ikrar pernikahan.' },
-    { id: 'story-4', date: 'Tahun 2026', title: 'Pernikahan Suci', desc: 'Hari yang dinantikan tiba untuk mengucap janji suci sehidup semati di hadapan Allah SWT, keluarga, serta sahabat tercinta.' }
+  "timelineItems": [
+    {
+      "id": "story-1",
+      "date": "Tahun 2022",
+      "title": "Pertama Bertemu",
+      "desc": "Tak sengaja dipertemukan dalam sebuah proyek organisasi kampus. Berawal dari diskusi singkat, tumbuh rasa saling menghargai dan kenyamanan satu sama lain."
+    },
+    {
+      "id": "story-2",
+      "date": "Tahun 2023",
+      "title": "Mulai Berpacaran",
+      "desc": "Setahun saling mengenal, kami memutuskan untuk mengikat komitmen bersama, saling mendukung impian masing-masing, dan belajar arti kesabaran serta ketulusan."
+    },
+    {
+      "id": "story-3",
+      "date": "Tahun 2025",
+      "title": "Momen Lamaran",
+      "desc": "Momen membahagiakan di mana dua keluarga besar bersilaturahmi dan merestui niat suci kami untuk melangkah menuju ikrar pernikahan."
+    },
+    {
+      "id": "story-4",
+      "date": "Tahun 2026",
+      "title": "Pernikahan Suci",
+      "desc": "Hari yang dinantikan tiba untuk mengucap janji suci sehidup semati di hadapan Allah SWT, keluarga, serta sahabat tercinta."
+    }
   ],
-
-  // Admin PIN
-  adminPin: '1234'
+  "adminPin": "1234"
 };
+
 
 let currentConfig = null;
 let isAuthenticated = false;
